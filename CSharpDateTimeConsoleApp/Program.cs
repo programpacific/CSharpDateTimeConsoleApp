@@ -24,7 +24,7 @@ namespace CSharpDateTimeConsoleApp
                 Console.WriteLine("\n\nIn {0}hrs it will be {1}!", userInput, FutureTime + "\n\nThanks for demoing my application, press enter to exit!");
                 Console.ReadLine();
             }
-            catch (OverflowException)
+            catch (OverflowException) 
             {
                 Console.WriteLine("\n\nI'm sorry but that is not a valid input.\nPress enter to retry!");
                 Console.ReadLine();
